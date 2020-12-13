@@ -16,7 +16,7 @@ function add_item(){
     food_array.sort();
     htmldata="<section class='cards'>"
     for(var i=0;i<food_array.length;i++){
-        htmldata=htmldata+'<div class="card">'+'<img src="images/pizzaImg.png">'+ food_array[i]+ '</div>'
+        htmldata=htmldata+'<div class="card">'+'<img src="pizzaImg.png">'+ food_array[i]+ '</div>'
     }
     htmldata=htmldata+"</section>"
     document.getElementById("display_addedmenu").innerHTML=htmldata;
